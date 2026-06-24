@@ -243,6 +243,7 @@ client.WithPolly(p => p
 | [PollyOpenAI](https://github.com/Swevo/PollyOpenAI) | Polly v8 for OpenAI .NET SDK |
 | [PollyMediatR](https://github.com/Swevo/PollyMediatR) | Polly v8 for MediatR |
 | [PollyHealthChecks](https://github.com/Swevo/PollyHealthChecks) | Polly v8 for ASP.NET Core Health Checks |
+| [PollyAzureKeyVault](https://github.com/Swevo/PollyAzureKeyVault) | Polly v8 for Azure Key Vault |
 | [PollyBackoff](https://github.com/Swevo/PollyBackoff) | Polly v8 backoff helpers |
 
 ## License
