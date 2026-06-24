@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PollyElasticsearch/PollyElasticsearch.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PollyElasticsearch.Tests/PollyElasticsearch.Tests.csproj" />
+  </Folder>
+</Solution>
