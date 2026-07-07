@@ -8,12 +8,12 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyElasticsearch</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2025 Justin Bannister</Copyright>
     <Description>Polly v8 resilience pipelines for Elastic.Clients.Elasticsearch 8+ — retry, timeout, and circuit-breaker for any Elasticsearch operation, plus a built-in ElasticTransientErrors predicate covering rate limiting (429), service unavailability (503), gateway timeouts (504), and connection failures.</Description>
     <PackageTags>polly;elasticsearch;elastic;elastic-clients;opensearch;search;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;dependency-injection;nosql;full-text-search</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientElasticsearchClient wraps ElasticsearchClient in a Polly v8 ResiliencePipeline. Includes ElasticTransientErrors helper with pre-built ShouldHandle predicate covering 429, 503, 504, and TransportException. Auto-throws ElasticTransientException for retryable HTTP responses. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientElasticsearchClient wraps ElasticsearchClient in a Polly v8 ResiliencePipeline. Includes ElasticTransientErrors helper with pre-built ShouldHandle predicate covering 429, 503, 504, and TransportException. Auto-throws ElasticTransientException for retryable HTTP responses. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyElasticsearch</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
