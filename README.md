@@ -1,9 +1,10 @@
-﻿# PollyElasticsearch
+# PollyElasticsearch
 
 [![NuGet](https://img.shields.io/nuget/v/PollyElasticsearch.svg)](https://www.nuget.org/packages/PollyElasticsearch/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyElasticsearch.svg)](https://www.nuget.org/packages/PollyElasticsearch/)
 [![CI](https://github.com/Swevo/PollyElasticsearch/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyElasticsearch/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 **Polly v8 resilience for `Elastic.Clients.Elasticsearch 8+`** — add retry, timeout, and circuit-breaker to any Elasticsearch operation in two lines.
 
